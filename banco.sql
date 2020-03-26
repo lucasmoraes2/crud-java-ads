@@ -1,0 +1,8 @@
+CREATE DATABASE ads;
+ 
+CREATE TABLE ads.usuarios
+(
+	codigo INTEGER      AUTO_INCREMENT PRIMARY KEY,
+	nome   VARCHAR(100) NOT NULL,
+	sexo   CHAR(1)	    NOT NULL    
+);
